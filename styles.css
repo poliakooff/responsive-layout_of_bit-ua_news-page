@@ -1,0 +1,439 @@
+/*Основная часть*/
+body {
+  background-image: url(image/content-center/Eproves.png);
+  background-size: 300px;
+  margin: 0 auto;
+}
+.body-page {
+  background-color: #fff;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.main-indents {
+  padding: 0 40px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/*Главный(шапка)*/
+.header {
+  background-color: #fff;
+  margin: auto;
+  padding: 41px 0px 42px 0px;
+}
+
+.header__social {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header__social a {
+  border: 2px solid #dcdcdc;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  margin: -49px 10px;
+  margin-left: 0px;
+
+  background-image: url(image/social/social.png) !important;
+  background-repeat: no-repeat;
+  transition: all 0.3s;
+}
+
+.header__social-fb :hover {
+  background: #3b5998;
+}
+
+.header__social-fb a {
+  border-color: #3b5998;
+  background-position: -106px -2px !important;
+  background-size: 850% !important;
+}
+
+.header__social-yt :hover {
+  background: #e60000;
+}
+
+.header__social-yt a {
+  border-color: #e60000;
+  background-position: -209px -54px !important;
+  background-size: 850% !important;
+}
+
+.header__social-tm :hover {
+  background: #08c;
+}
+
+.header__social-tm a {
+  border-color: #08c;
+  background-position: -106px -157px !important;
+  background-size: 850% !important;
+}
+
+.header__social-inst :hover {
+  background: #f43637;
+}
+
+.header__social-inst a {
+  border-color: #f43637;
+  background-position: -261px -2px !important;
+  background-size: 850% !important;
+}
+
+.header__logo {
+  background-color: #f43637;
+  border: 2px solid #f43637;
+  border-radius: 2px;
+  width: 110px;
+  font-size: 27px;
+  padding: 13px 13px 12px 13px;
+  margin: 0 auto;
+  font-weight: bold;
+  font-family: Geometria, helvetica, arial, sans-serif;
+  text-align: center;
+}
+.header__logo a {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.dot {
+  margin-bottom: -5px;
+  margin-left: 3px;
+  margin-right: 3px;
+  font-size: 22px;
+  vertical-align: middle;
+}
+
+/*Главная навигация*/
+.menu {
+  position: relative;
+  background-color: #f5f5f5;
+  padding-top: 18px;
+  padding-bottom: 15px;
+}
+
+.menu__burger {
+  display: none;
+}
+
+.menu li {
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.menu a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: rgba(39, 38, 38, 0.8);
+  font-weight: bold;
+  font-family: Geometria, helvetica, arial, sans-serif;
+}
+
+.menu__indents {
+  margin: 0;
+  padding: 0;
+}
+
+/*Главное дополнение*/
+.extra__link {
+  background-color: #fff;
+  margin-top: 25px;
+}
+
+.extra__heading-media {
+  font-family: 'Geometria', helvetica, arial, sans-serif;
+
+  color: #666666;
+  display: none;
+}
+
+.extra {
+  margin: 25px 0px;
+}
+
+.extra__text-positon,
+.extra__heading {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-right: 20px;
+}
+
+.extra__indents {
+  margin: auto;
+  padding: 0px;
+}
+
+.extra__link img {
+  padding-top: 20px;
+}
+
+/*настройка текста в дополнительной навигации*/
+.extra__text-positon {
+  vertical-align: 14px;
+  text-decoration: none;
+  margin-top: -27px;
+  color: rgba(61, 61, 61, 0.8);
+  font-size: 11px;
+  font-family: 'Geometria', helvetica, arial, sans-serif;
+  font-weight: bold;
+}
+
+.extra__text-positon a {
+  padding-left: 50px;
+}
+
+.extra__heading {
+  vertical-align: 15px;
+  color: #999;
+  font-size: 12px;
+  margin-top: 35px;
+  padding-left: 0px;
+}
+
+.page__roll-wrapper {
+  border: 4px solid #f43637;
+  overflow-y: auto;
+  min-height: 200px;
+  max-height: 457px;
+  margin-left: 20;
+  padding: 0px 18px 35px;
+}
+
+/*цвет при навидении на ссылку*/
+li a:hover,
+.page__roll-wrapper a:hover {
+  color: rgb(207, 43, 43);
+}
+
+/*контент*/
+
+.page__content-positioning {
+  display: flex;
+}
+
+.page-indents {
+  padding: 30px 40px;
+}
+
+.content {
+  background-color: #fff;
+  max-width: 100%;
+  padding: 30px 0px;
+  overflow: hidden;
+}
+
+/*список блога слева*/
+.page__roll-indents {
+  margin: 0px 20px 50px 0px;
+  width: 33.84%;
+  position: relative;
+}
+
+.page__all-news {
+  background-color: #f43637;
+  color: #fff;
+  transform: translateX(-50%);
+  font-size: 14px;
+  max-width: 100px;
+  padding: 12px 22px;
+  border-radius: 25px;
+  position: absolute;
+  font-family: 'Geometria', helvetica, arial, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.3s, color 0.3s;
+  margin-top: -24px;
+  left: 50%;
+}
+
+.page__all-news:hover {
+  background-color: #f15959;
+}
+
+.page__main-news {
+  font-size: 18px;
+  padding-left: 108px;
+  margin-top: 3px;
+  color: #000;
+  line-height: 1.2;
+}
+
+h6 {
+  margin: 0px;
+  font-weight: 400;
+}
+
+.page__news,
+.page__news-article {
+  font-family: Geometria, helvetica, arial, sans-serif;
+  font-size: 15px;
+  padding-left: 108px;
+  color: #505050;
+  line-height: 1.1;
+}
+.page__time {
+  color: rgb(207, 43, 43);
+  font-size: 13px;
+  margin-left: 50px;
+  padding-top: 20px;
+  float: left;
+}
+
+.page__data {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 17px;
+  margin-left: 18px;
+  padding-top: 23px;
+  float: left;
+  text-transform: uppercase;
+  white-space: pre;
+  font-weight: bold;
+}
+
+.page__main-time {
+  color: rgb(207, 43, 43);
+  font-size: 13px;
+  margin-left: 36px;
+  padding-top: 7px;
+  float: left;
+}
+
+/*цеентр контента*/
+.page__center {
+  width: 37.1%;
+  margin-right: 20px;
+  min-width: 296px;
+  max-height: 500px;
+  position: relative;
+}
+
+.page__center Img {
+  width: 100%;
+}
+
+.page__background-up {
+  background-color: silver;
+  width: 100%;
+}
+
+.page__background-down {
+  background-color: silver;
+  width: 100%;
+}
+
+.page__post-up {
+  /*background-image: url(image/content-center/up.jpg);*/
+  background-position: 50% 0%;
+  height: 245px;
+  color: #fff;
+  margin-bottom: 10px;
+
+  min-height: 0px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  transition: all 0.25s ease;
+}
+.page__post-up:hover .page__image-up {
+  transform: scale(1.1);
+  transition: 0.25s;
+}
+
+.page__post-up .page__text-up {
+  position: absolute;
+  width: 80%;
+  top: 0;
+}
+
+.page__post-down {
+  /*background-image: url(/image/content-center/down.jpg);*/
+  background-position: 50% 0%;
+  height: 245px;
+  width: 100%;
+
+  color: #fff;
+
+  min-height: 0px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  transition: all 0.25s ease;
+}
+
+.page__post-down:hover .page__image-down {
+  transform: scale(1.1);
+  transition: 0.25s;
+}
+
+.page__post-down .page__post-down-text {
+  position: absolute;
+  width: 80%;
+  top: 250px;
+}
+
+.page__tag-up {
+  background-color: red;
+  padding: 5px 13px 5px 30px;
+  max-width: 119px;
+  margin-top: 90px;
+  font-family: Geometria-Bold, helvetica, arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+  font-size: 10px;
+  font-weight: bold;
+  border-top-right-radius: 11px;
+  border-bottom-right-radius: 11px;
+  text-decoration: none;
+}
+
+.page__tag-down {
+  background-color: red;
+  padding: 5px 13px 5px 30px;
+  max-width: 119px;
+  margin-top: 121px;
+  font-family: Geometria-Bold, helvetica, arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+  font-size: 10px;
+  font-weight: bold;
+  border-top-right-radius: 11px;
+  border-bottom-right-radius: 11px;
+  text-decoration: none;
+}
+
+.page__content-up-down {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Geometria-Bold, helvetica, arial, sans-serif;
+  line-height: 27px;
+  margin: 20px 0px 0px 21px;
+  font-size: 16px;
+  width: 90%;
+  margin-bottom: -4px;
+  padding-right: 20px;
+}
+
+.page__content-time-up-down {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.6);
+  margin-left: 20px;
+  font-weight: bold;
+  font-family: Geometria-Bold, helvetica, arial, sans-serif;
+}
+
+/*боковая панель (право)*/
+.page__sidebar-size img {
+  width: 300px;
+  height: 500px;
+}
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('/fonts/Geometria-Bold.otf');
